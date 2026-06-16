@@ -84,6 +84,13 @@
 Next.js 배포와 운영에 적합하고, QR 이벤트처럼 빠른 디자인 수정과 기능 배포가 필요한 프로젝트에 잘 맞았습니다. 실제 운영 중에도 화면 개선과 관리자 기능 추가를 빠르게 반영했습니다.
 
 ## 서비스 흐름
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/eb5f5660-9788-47d0-8ed5-f2aabeaf3298"
+    alt="화면 동작 GIF"
+    width="320"
+  />
+</p>
 
 ```text
 사용자 QR 스캔
