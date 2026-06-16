@@ -1,6 +1,21 @@
-# Cafe Bravi QR Coupon Event
-<img width="1587" height="2245" alt="Image" src="https://github.com/user-attachments/assets/44436589-fffb-4692-bb88-4713a7fdc3d1" />
-<img width="1587" height="2245" alt="Image" src="https://github.com/user-attachments/assets/046020e1-f72a-49eb-ac87-e97aa42f11b7" />
+# Cafe Bravi QR Coupon Event<table>
+  <tr>
+    <td>
+      <img
+        src="https://github.com/user-attachments/assets/44436589-fffb-4692-bb88-4713a7fdc3d1"
+        alt="Image 1"
+        width="360"
+      />
+    </td>
+    <td>
+      <img
+        src="https://github.com/user-attachments/assets/046020e1-f72a-49eb-ac87-e97aa42f11b7"
+        alt="Image 2"
+        width="360"
+      />
+    </td>
+  </tr>
+</table>
 
 카페 브라비 방문 전환을 목표로 만든 QR 기반 쿠폰 발급 서비스입니다.
 
