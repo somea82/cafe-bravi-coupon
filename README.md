@@ -1,5 +1,5 @@
 # Cafe Bravi QR Coupon Event<table>
- <table>
+<table>
   <tr>
     <td>
       <img
