@@ -1,65 +1,47 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <section className="setup-page">
+      <div className="eyebrow">BRAVI COUPON MVP</div>
+      <h1>프로젝트의 기본 골격을 준비하고 있습니다.</h1>
+      <p className="lead">
+        QR 진입부터 쿠폰 발급과 직원 사용 처리까지, 실제 매장에서 필요한
+        흐름을 한 프로젝트 안에 구성합니다.
+      </p>
+
+      <div className="setup-card">
+        <div className="setup-card-heading">
+          <span>STEP 01</span>
+          <strong>프로젝트 초기 세팅</strong>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+        <ul className="setup-list">
+          <li>
+            <span className="check" aria-hidden="true">
+              ✓
+            </span>
+            Next.js App Router
+          </li>
+          <li>
+            <span className="check" aria-hidden="true">
+              ✓
+            </span>
+            TypeScript와 Tailwind CSS
+          </li>
+          <li>
+            <span className="check" aria-hidden="true">
+              ✓
+            </span>
+            모바일 중심 공통 레이아웃
+          </li>
+          <li>
+            <span className="pending" aria-hidden="true" />
+            Supabase와 Vercel 계정 연결
+          </li>
+        </ul>
+      </div>
+
+      <p className="next-step">
+        다음 구현 대상은 데이터베이스 테이블과 초기 캠페인 데이터입니다.
+      </p>
+    </section>
   );
 }
